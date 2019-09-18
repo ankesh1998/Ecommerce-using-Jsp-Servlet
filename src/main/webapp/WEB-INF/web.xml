@@ -1,0 +1,89 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginService</servlet-name>
+  	<display-name>LoginService</display-name>
+  	<description></description>
+  	<servlet-class>com.login.LoginService</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterService</servlet-name>
+  	<display-name>RegisterService</display-name>
+  	<description></description>
+  	<servlet-class>com.register.RegisterService</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPasswordService</servlet-name>
+  	<display-name>ForgotPasswordService</display-name>
+  	<description></description>
+  	<servlet-class>com.forgot.password.ForgotPasswordService</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOutServlet</servlet-name>
+  	<display-name>LogOutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.logout.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdditemServlet</servlet-name>
+  	<display-name>AdditemServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.additem.AdditemServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteItemServlet</servlet-name>
+  	<display-name>DeleteItemServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.deleteItems.DeleteItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditItemServlet</servlet-name>
+  	<display-name>EditItemServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.edit.item.EditItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ContactService</servlet-name>
+  	<display-name>ContactService</display-name>
+  	<description></description>
+  	<servlet-class>com.forgot.password.ContactService</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+  	<servlet-name>LoginService</servlet-name>
+  	<url-pattern>/LoginService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterService</servlet-name>
+  	<url-pattern>/RegisterService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotPasswordService</servlet-name>
+  	<url-pattern>/ForgotPasswordService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOutServlet</servlet-name>
+  	<url-pattern>/LogOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdditemServlet</servlet-name>
+  	<url-pattern>/AdditemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteItemServlet</servlet-name>
+  	<url-pattern>/DeleteItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditItemServlet</servlet-name>
+  	<url-pattern>/EditItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ContactService</servlet-name>
+  	<url-pattern>/ContactService</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
