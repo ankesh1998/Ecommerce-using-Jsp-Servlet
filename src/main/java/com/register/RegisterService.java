@@ -62,7 +62,7 @@ public class RegisterService extends HttpServlet {
 				ps.setString(4, address);
 
 				ps.executeUpdate();
-				RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
+				RequestDispatcher rd = request.getRequestDispatcher("registration.jsp?error=You registered successfully.");
 				rd.forward(request, response);
 			}
 
