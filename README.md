@@ -18,7 +18,11 @@ Features are :
               4. Order Page:
                             This will contain the records of all the orders which are done by the customer.
                      
-![](images/login.jpg)
-![](images/forgot_password.jpg)
-                           
+
+![](images/admin_home.jpg)     
+![](images/admin_add_product.jpg)
+![](images/admin_edit_product.jpg)
+![](images/shopping.jpg)
+![](images/cart.jpg)
+![](images/order.jpg)
               
