@@ -17,6 +17,8 @@ Features are :
                            The customer can also be able to remove the product which are present in his cart and add new one.
               4. Order Page:
                             This will contain the records of all the orders which are done by the customer.
-                            
+                     
+![](images/login.jpg)
+![](images/forgot_password.jpg)
                            
               
