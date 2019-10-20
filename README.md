@@ -2,7 +2,7 @@
 This consists of Admin module also where admin can ADD/EDIT/DELETE the products by login through their credentials.
 
 One more thing is that both the "customers" and "admin" can login through the same login page and
-depending on thier user-type(admin/customer) we are redirecting them to corresponding pages.
+depending on their user-type(admin/customer) we are redirecting them to corresponding dashboard pages.
 
 
 Features are :
